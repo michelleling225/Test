@@ -40,6 +40,7 @@ _Summer 2016_
   - [_Custom Messages_](#custom-messages)
   - [_Emojis_ :grin:](#emojis)
   - [_Squash Commits_](#squash-commits)
+
 <style>
 .resize {
   height: 200px;
@@ -58,45 +59,35 @@ Overall, this new version of Enterprise is a major step up from the previous 1.0
 
 #### Code Review <a id="split-diff"></a>
 - Diffs that are available in **_split view_** allows easier comparison of pull requests and commits side-by-side.  
-<img class="resizemed" src="https://cloud.githubusercontent.com/assets/98681/4139311/699ef6da-3399-11e4-8d8e-cf0a9e902867.gif" alt="Split Diffs" />
 
-<!--
-![Split Diffs](https://enterprise.github.com/assets/releases/2.0.0/screenshot-split-diffs-b26880ca3e5b443dad4353929869eb7844f47d601fdb131aac8d65653fb5898e.jpg) -->
+<img class="resizemed" src="https://cloud.githubusercontent.com/assets/98681/4139311/699ef6da-3399-11e4-8d8e-cf0a9e902867.gif" alt="Split Diffs"/>
+
 - GitHub Issues have been remodeled to include improved search and filtering with new Issue and PR listing UI
+
 <img class= "resizemed" src="https://cloud.githubusercontent.com/assets/700173/4873421/c973d69c-6211-11e4-9aca-e6f8d15a0ff7.gif" alt="Branches"/>
 - A new **_branches page_** allows you to filter branches by ones you've created, review most active ones, clean stale branches, examine failing branches, and open pull request directly.  
 <img class= "resize" src="https://cloud.githubusercontent.com/assets/296432/3329568/2230969e-f7c8-11e3-8cc9-70fd67e95ad6.png" alt="Branches"/>
 
-<!--
-![Branches](https://enterprise.github.com/assets/releases/2.0.0/screenshot-branches-filtering-8c200d28b749002191dfe5635f5c361c370c1826d12cc2bb8d66f30d189c1dc5.jpg) -->
-
 <a id="revert"></a>
 - Revert merged commits using the new **_pull request revert button_**!
-<!-- ![Pull Request Revert](https://enterprise.github.com/assets/releases/2.0.0/screenshot-revert-button-914edd5ccac35fb2a0a2f7011d97dccf82539efe3e20f5301ff87d0643f71166.jpg) -->
 - After there has been enough discussion, administrators can **_lock conversations_** so other users can no longer comment.  
-<!-- ![Locking Conversations](https://enterprise.github.com/assets/releases/2.0.0/screenshot-lock-conversation-34367205bc2b072f8384dd24c4f73a89437c3a88e02edaaadf9512947bbe3844.jpg) -->
 - New Integrations are also available with [Snap](https://www.snap-ci.com/) and [Code Review Hub](https://www.snap-ci.com/)
 
 #### Project Management
 - **_Filter different issues_** by author, label, milestone, open/close state as well as with advanced search terms.  
-<!-- ![Filter](https://enterprise.github.com/assets/releases/2.0.0/screenshot-issue-search-0bb12931f42df021bff1885590ddb17b213f35383359478e13de7081bc1436c4.jpg) -->
 - Two new **_pages of labels and milestones_** to track issues.  
-<!-- ![New labels and milestones](https://enterprise.github.com/assets/releases/2.0.0/screenshot-milestones-page-f11622faf496a576a119c3f45fa8a8b727b030222f9b82e7fb6dfcbf77f12f58.jpg) -->
 - Watch **_progress of issues_** such as owner changes, issue title changes, labels, milestones, and task lists.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.0.0/screenshot-issue-tracking-8ae591af0801c511df74c4c567a30cbef967a59be2dcccc946d61a9cc4932aed.jpg" alt="Issue Progress"/>
-<!-- ![Issue Progress](https://enterprise.github.com/assets/releases/2.0.0/screenshot-issue-tracking-8ae591af0801c511df74c4c567a30cbef967a59be2dcccc946d61a9cc4932aed.jpg) -->
-
 
 - Now, whenever someone else is assigned an issue, they will receive an **_email or web notification_**.  
-<!-- ![Assignment notification](https://enterprise.github.com/assets/releases/2.0.0/screenshot-assignment-notification-a02497dd58dd8ff37faabaadd024eefd7b88e81f44d09ff179d09c0b4c5b6fbb.jpg) -->
 - New integrations are also available with [TinyPM](http://www.tinypm.com/) and [Bugzilla](https://www.bugzilla.org/releases/4.4.3/).
 
 ##### New Software Development Integrations
 - With the Deployments API, now there are **_notifications in the conversation timeline for pull requests_** that are in testing, staging, or production environments.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.0.0/screenshot-commit-deploy-04c7cab9b1aaffab00e08c4930f539e1e09dc6933643ff24adb41850b58a1786.jpg" alt="Deployment Status" />
-<!-- ![Deployment Status](https://enterprise.github.com/assets/releases/2.0.0/screenshot-commit-deploy-04c7cab9b1aaffab00e08c4930f539e1e09dc6933643ff24adb41850b58a1786.jpg) -->
 
 - New integrations available with [Heroku](https://www.heroku.com/), [Visual Ops](http://www.visualops.io/), [GO](https://www.go.cd/), and [OpsWorks](http://aws.amazon.com/opsworks/).
+
 <a id="SAML"></a>
 ##### Enhanced Authentication and Security
 - **_SAML (Security Assertion Markup Language) support_** added. Providers that can now be used with GitHub Enterprise include OneLogin, PingIdentity, Okta, and Shibboleth.
@@ -104,16 +95,13 @@ Overall, this new version of Enterprise is a major step up from the previous 1.0
 - Now there is **_auditing_** for accounts, teams, and repository access. Team member activity and event location can be traced.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.0.0/screenshot-audit-log-filter-ba55ce639f987c22fc41411b1e489c1ef550afa19799c7166a465d27f6038fbf.jpg" alt="Audit Log"/>
 
-<!-- ![Audit Log](https://enterprise.github.com/assets/releases/2.0.0/screenshot-audit-log-filter-ba55ce639f987c22fc41411b1e489c1ef550afa19799c7166a465d27f6038fbf.jpg) -->
 - **_Two-factor authentication improvements_** include a TOTP (time-based one-time password) application as well as reminders for recovery code download in case of a lock out.
 - With the use of **_Ubuntu 12.04 LTS_**, GitHub Enterprise can take advantage of updates and security fixes for Ubuntu. Sudo access (users can run programs with security privileges of another user) is now available for the admin which means more direct control.
 
 #### Other features
 - Better Pages running with 300+ advanced features.  
-<!-- ![Pages](https://enterprise.github.com/assets/releases/2.0.0/screenshot-pages-sass-395e3560d3dffb0bfedfcab62d9c2bf94442cb268cfe733ad2a36e16910f3d1d.jpg) -->
 - PSD rendering is now added to Github's image viewing and diffing capabilities. This includes three image view modes that allow you to see the images inline and what has changed in a commit.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.0.0/screenshot-psd-diffs-3422c8b489fba3c1f0025c6bc834b8fe8a15eb7e09e102140d4e3f4f7dc7811c.jpg" alt="PSD" />
-<!-- ![PSD](https://enterprise.github.com/assets/releases/2.0.0/screenshot-psd-diffs-3422c8b489fba3c1f0025c6bc834b8fe8a15eb7e09e102140d4e3f4f7dc7811c.jpg)) -->
 
 <a id="HA"></a>
 - **_High Availability_** allows you to have two separate instances (one primary and one replica) and the replica will automatically replicate any data in the primary instance. If anything happens to the first one, the admin can switch users to the other instance.
@@ -140,7 +128,7 @@ This version of Enterprise continues to provide users what they have told us the
 - New **_monitoring dashboard_** for administrators that gives data around disk usage, CPUs, memory, etc.
 - Use the `ghe-btop` command to see which Git operations are currently running.  
 <img class="resizemed" src="https://enterprise.github.com/assets/releases/2.1.0/screenshot-maintenance-dash-13ce92e4b81062ea5615b8984042ab41cb007cc2b0f52300a9d4e85f56669b45.jpg" alt="New Auditing" />
-<!-- ![New Auditing](https://enterprise.github.com/assets/releases/2.1.0/screenshot-maintenance-dash-13ce92e4b81062ea5615b8984042ab41cb007cc2b0f52300a9d4e85f56669b45.jpg) -->
+
 <a id="org-webhooks"></a>
 #### Configure Organization Webhooks
 - Save time with **_integrations across multiple repositories_**.
@@ -149,11 +137,10 @@ This version of Enterprise continues to provide users what they have told us the
 - Possible configurations: repository push, pull request opened, GitHub Pages site built, new member added to a team, etc.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.1.0/screenshot-webhooks-ced793bca08d148151a6fb8aabc54418a52d79d8503fedc0eed1035a5f407eaf.jpg" alt="Webhooks"/>
 
-<!-- ![Webhooks](https://enterprise.github.com/assets/releases/2.1.0/screenshot-webhooks-ced793bca08d148151a6fb8aabc54418a52d79d8503fedc0eed1035a5f407eaf.jpg) -->
-
 #### Deployment Tooling
 - GitHub Enterprise provides you with the ability to **_automate your software to your end users_**.
 - Developers don't need to worry about implementation details of delivering applications if they use the [GitHub's Deployments API](https://developer.github.com/v3/repos/deployments/).
+
 <a id="status-checks"></a>
 #### Status Checks
 - Improve the quality of your code using [GitHub's Status API](https://developer.github.com/v3/repos/statuses/) which will include the **_status of a pull request_** within the conversation.
@@ -161,18 +148,14 @@ This version of Enterprise continues to provide users what they have told us the
 - Commit history is easily accessible.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.1.0/screenshot-status-checks-55012772375b58cdee8c80fc41704ba2ba0049f304653df72d8943149f8ffb69.jpg" alt="Status Checks" />
 
-<!-- ![Status Checks](https://enterprise.github.com/assets/releases/2.1.0/screenshot-status-checks-55012772375b58cdee8c80fc41704ba2ba0049f304653df72d8943149f8ffb69.jpg) -->
-
 #### /Pulls and /Issues pages
 - **_New Issues and Pull Requests Dashboards_** allow developers to keep track of everything and manage their work across all repositories with easier
 - Custom advanced search filters also let them save their own often-used searches  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.1.0/screenshot-dashboards-9320b52fcfbd0caebadad6f86ef150836fa3170f9867e59e129b6703e21494fd.jpg" alt="Pulls and Issues Dashboard" />
-<!-- ![Pulls and Issues Dashboard](https://enterprise.github.com/assets/releases/2.1.0/screenshot-dashboards-9320b52fcfbd0caebadad6f86ef150836fa3170f9867e59e129b6703e21494fd.jpg) -->
 
 #### SVG Files
 - GitHub Enterprise can now render SVG files.
 - This means **_direct browsing and viewing of SVG assets_** as rendered images and the ability to compare changes to SVG files over time.  
-<!-- ![SVG Files](https://enterprise.github.com/assets/releases/2.1.0/screenshot-svg-ca16cfa48818b302e016aac8470f415562e8bf79762d318b94ee350cec40513d.jpg) -->
 - GitHub also displays PNG, JPG, GIF, and PSD.
 
 [More Details About the 2.1 Release](https://enterprise.github.com/releases/2.1.0)  
@@ -194,7 +177,6 @@ GitHub Enterprise 2.2 expands the possible workflows by incorporating new mobile
 
 **_Azure_** - By enabling deployment onto Azure, you can easily host GitHub Enterprise in the Windows ecosystem with no need to change the environment you've already built.   
 <img src="https://enterprise.github.com/assets/releases/2.2.0/screenshot-azure-7b8196ae91c7fa04f3ab771ce3a36fa6e463af211afb676f21374a80ab4e068a.jpg" width= 600px />
-<!-- ![Azure](https://enterprise.github.com/assets/releases/2.2.0/screenshot-azure-7b8196ae91c7fa04f3ab771ce3a36fa6e463af211afb676f21374a80ab4e068a.jpg) -->
 
 New deployment platforms **_Hyper-V_** and **_XenServer_** are now supported as well.
 
@@ -202,22 +184,21 @@ New deployment platforms **_Hyper-V_** and **_XenServer_** are now supported as 
 - Now you can commit or propose a change to a new branch, then **_immediately open a pull request_** for discussion and review.
 - Also, with the commit composer, you can add the commit to the current branch or to a new branch. This keeps the master branch tidy.  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.2.0/screenshot-branch-pull-request-49d4315d39f80e299e0c37fd24f67663e57507b3cc8c7933bbf7125b0d06ab3b.jpg" alt="Commit Composer" />
-<!-- ![Commit Composer](https://enterprise.github.com/assets/releases/2.2.0/screenshot-branch-pull-request-49d4315d39f80e299e0c37fd24f67663e57507b3cc8c7933bbf7125b0d06ab3b.jpg) -->
 
 **_PDFs_** - view PDF files in Enterprise. This way once you click on the link after browsing or uploading a PDF, then you can view it as a rendered image.
 
 #### Phone improvements
 - Get GitHub notifications on your phone!  
-<!-- ![Phone notifications](https://enterprise.github.com/assets/releases/2.2.0/screenshot-mobile-notifications-8553ed78eec0f4cefc6e84a4c2e788a1586f83e24d086d714c3fa92332738f55.png) -->
 - Easily navigate branches  
+
 <img class="resizemed" src="https://enterprise.github.com/assets/releases/2.2.0/screenshot-mobile-branches-099481d0c983b1e2c104e64df3caca98217806eabfd1a6974d11e1ba461750da.png" alt="Phone Branches" />
-<!-- ![Phone Branch](https://enterprise.github.com/assets/releases/2.2.0/screenshot-mobile-branches-099481d0c983b1e2c104e64df3caca98217806eabfd1a6974d11e1ba461750da.png) -->
+
 <a id="announcements"></a>
 #### Announcements
 - Generate announcement banners about new features, ongoing service issues, etc and answer user concerns without having to respond to reports.
 - Run the command `ghe-announce -s` with your own message on the SSH admin console  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.2.0/screenshot-announcement-0a62faa69e0fc95a09816e0d830ceb74feea1aba0997b9056672d476fb0ae0b7.jpg" alt="Announcements" />
-<!-- ![Announcements](https://enterprise.github.com/assets/releases/2.2.0/screenshot-announcement-0a62faa69e0fc95a09816e0d830ceb74feea1aba0997b9056672d476fb0ae0b7.jpg) -->
+
 <a id="net-shard"></a>
 #### Other
 - Net-shard Repository Layout deals with the structure of data within an instance. This impacts those that use forks the most and is predicted to reduce disk usage by about 50%. This opens the door to scale-out architecture.
@@ -249,7 +230,7 @@ Enterprise 2.3 offers more control to both users and administrators by expanding
 - Migrations are made much simpler with `ghe-migrator` which helps you **_move from one GitHub instance_** to another
 - It's now simple to move your organization, users, teams, and repositories from GitHub.com to GitHub Enterprise  
 <img class="resize" src="https://enterprise.github.com/assets/releases/2.3.0/screenshot-migration-afd72b2c5086847b69b6a063cdb3d5e1ec5cdc54d203a664ebe3a1e959921591.jpg" alt="Migrator" />
-<!-- ![Migrator](https://enterprise.github.com/assets/releases/2.3.0/screenshot-migration-afd72b2c5086847b69b6a063cdb3d5e1ec5cdc54d203a664ebe3a1e959921591.jpg) -->
+
 <a id="http-proxy"></a>
 - Outbound HTTP proxies allows you to **_integrate the tools_** you want **_within the security of an enterprise environment_**. This way you can safely use your favorite apps and services with your firewall.
 - **_Advanced monitoring_** enables you to see the state of queues for background jobs and emails as well many other metrics and information for MySQL, Redis, and ElasticSearch.

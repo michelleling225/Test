@@ -43,7 +43,7 @@ _Summer 2016_
 
 <style>
 .resize {
-  height: 200px;
+  height: 1px;
 }
   .resizemed {
     height: 400px;
@@ -60,7 +60,7 @@ Overall, this new version of Enterprise is a major step up from the previous 1.0
 #### Code Review <a id="split-diff"></a>
 - Diffs that are available in **_split view_** allows easier comparison of pull requests and commits side-by-side.  
 
-<img class="resizemed" src="https://cloud.githubusercontent.com/assets/98681/4139311/699ef6da-3399-11e4-8d8e-cf0a9e902867.gif" alt="Split Diffs"/>
+<img class="resizemed" src="https://cloud.githubusercontent.com/assets/98681/4139311/699ef6da-3399-11e4-8d8e-cf0a9e902867.gif" height= 400px alt="Split Diffs"/>
 
 - GitHub Issues have been remodeled to include improved search and filtering with new Issue and PR listing UI
 

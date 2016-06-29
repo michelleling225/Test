@@ -40,14 +40,6 @@ _Summer 2016_
   - [_Custom Messages_](#custom-messages)
   - [_Emojis_ :grin:](#emojis)
   - [_Squash Commits_](#squash-commits)
-<style>
-.resize {
-  height: 200px;
-}
-  .resizemed {
-    height: 400px;
-  }
-</style>
 
 <a id="release-two-zero"></a>
 ## GitHub Enterprise 2.0

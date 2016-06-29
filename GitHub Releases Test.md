@@ -24,7 +24,7 @@ _Summer 2016_
   - [_Admin API_](#admin-api)
   - [_Outbound HTTP Proxy_](#http-proxy)
   - [_GH-Migrator_](#migrator)
-  - [Referer Sanitization](#referer)
+  - [Referrer Sanitization](#referrer)
 - [**GHE Release 2.4**](#release-two-four) (2015)
   - [_Protected Branches_](#protected-branches)
   - [_Direct Orgs_](#direct-orgs)
@@ -234,6 +234,7 @@ Enterprise 2.3 offers more control to both users and administrators by expanding
 
 #### Security Updates
 - Better **_RSA key validations_** prevent weak and invalid SSH keys from working.
+<a id="referrer"></a>
 - Referrer headers on requests are no longer sent and ensures that the location of your Enterprise instance is not leaked.
 
 #### Other
